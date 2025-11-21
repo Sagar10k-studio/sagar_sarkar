@@ -1,75 +1,11 @@
-<!DOCTYPE html>
-<html lang="bn">
-<head>
-  <meta charset="utf-8" />
-  <meta name="viewport" content="width=device-width,initial-scale=1" />
-  <title>Sagar Sarkar — Personal Website</title>
-  <style>
-    body { font-family: "Helvetica Neue", Arial, sans-serif; margin:0; padding:0; background:#f4f6f8; color:#222; }
-    .container { max-width:900px; margin:40px auto; background:#fff; border-radius:12px; box-shadow:0 8px 30px rgba(0,0,0,0.08); overflow:hidden; }
-    header { display:flex; gap:20px; align-items:center; padding:28px; }
-    .avatar { width:120px; height:120px; border-radius:50%; background:#e6e9ef; display:flex; align-items:center; justify-content:center; font-size:42px; color:#667; }
-    h1 { margin:0; font-size:28px; }
-    p.lead { margin-top:6px; color:#445; }
-    section { padding:24px 28px; border-top:1px solid #f0f2f5; }
-    .grid { display:grid; grid-template-columns:1fr 1fr; gap:16px; }
-    .card { background:#fbfdff; padding:14px; border-radius:8px; box-shadow: 0 2px 8px rgba(15,20,30,0.02); }
-    a.button { display:inline-block; margin-top:10px; padding:10px 14px; border-radius:8px; text-decoration:none; border:1px solid #dbe6ff; }
-    footer { text-align:center; padding:18px; font-size:13px; color:#667; }
-    @media (max-width:700px) { .grid { grid-template-columns:1fr; } header { flex-direction:column; gap:12px; text-align:center; } }
-  </style>
-</head>
-<body>
-  <div class="container">
-    <header>
-      <div class="avatar">SS</div>
-      <div>
-        <h1>Sagar Sarkar</h1>
-        <p class="lead">আমি Gangarampur থেকে — প্রযুক্তি, বাইক, ও শেখার প্রতি উৎসাহী।</p>
-        <div style="margin-top:8px;">
-          <a class="button" href="#about">About</a>
-          <a class="button" href="#contact">Contact</a>
-        </div>
-      </div>
-    </header>
-
-    <section id="about">
-      <h2>About Me</h2>
-      <p>হ্যালো! আমি Sagar Sarkar। আমি ওয়েব, অ্যাপ বিষয়ে শিখছি এবং নানা প্রজেক্টে কাজ করতে ভালোবাসি। আপনি আমার কাজগুলো এখানে দেখতে পাবেন।</p>
-      <div class="grid" style="margin-top:12px;">
-        <div class="card">
-          <h3>Skills</h3>
-          <ul>
-            <li>HTML, CSS (প্রাথমিক)</li>
-            <li>Android app development (Basic)</li>
-            <li>Problem solving & learning</li>
-          </ul>
-        </div>
-        <div class="card">
-          <h3>Interests</h3>
-          <ul>
-            <li>Bikes & Riding</li>
-            <li>Technology</li>
-            <li>Creating personal projects</li>
-          </ul>
-        </div>
-      </div>
-    </section>
-
-    <section id="contact">
-      <h2>Contact</h2>
-      <p>WhatsApp: <strong>+91 6295177736</strong></p>
-      <p>Email: <em>ar3815152@gmail.com</em></p>
-      <p>GitHub: <a href="https://github.com/sp-sagar" target="_blank">github.com/sp-sagar</a></p>
-    </section>
-
-    <footer>
-      © <span id="year"></span> Sagar Sarkar — Built with GitHub Pages
-    </footer>
+<header>
+  <img class="avatar" src="avatar.jpg" alt="Sagar Sarkar">
+  <div>
+    <h1>Sagar Sarkar</h1>
+    <p class="lead">আমি Gangarampur থেকে — প্রযুক্তি, বাইক, ও শেখার প্রতি উৎসাহী।</p>
+    <div style="margin-top:8px;">
+      <a class="button" href="#about">About</a>
+      <a class="button" href="#contact">Contact</a>
+    </div>
   </div>
-
-  <script>
-    document.getElementById('year').textContent = new Date().getFullYear();
-  </script>
-</body>
-</html>
+</header>
